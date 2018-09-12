@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api:
+    build: ./docker/app
+    image: "svgnoder"
+    volumes:
+      - ${PWD}/src:/var/www/html
+    ports:
+      - 8080:80

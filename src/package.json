@@ -1,0 +1,14 @@
+{
+  "name": "svnoder",
+  "version": "1.0.0",
+  "description": "A svg-graph provider api project based on nodejs and express",
+  "main": "app.js",
+  "author": "Fredrik Nordlund",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "jsdom": "^12.0.0",
+    "svg.js": "^2.6.6"
+  }
+}
